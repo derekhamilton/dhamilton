@@ -1,0 +1,223 @@
+@import url("https://fonts.googleapis.com/css?family=Adamina|Sarala");
+@import "variables";
+
+/* ------ Structure ------*/
+/*
+@font-face
+{
+  font-family: 'openvera';
+  src: url('http://thevgpress.com/fonts/DejaVuSans.ttf') format('truetype');
+}
+*/
+html
+{
+}
+
+html, body
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1
+{
+    font-weight: normal;
+}
+
+h1, h2
+{
+    clear: both;
+    margin:0px;
+}
+
+a
+{
+    color: $linkColor;
+    text-decoration: none;
+}
+
+#content
+{
+    min-height: 60%;
+}
+
+main
+{
+    clear: both;
+    min-height: 300px;
+}
+
+main, nav
+{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+main
+{
+    overflow: hidden;
+    font-family: $sansSerifFont;
+}
+
+main p
+{
+    margin-top: 3em;
+}
+
+/* ------ Tabs ------ */
+nav ul
+{
+    list-style: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+    z-index: 99;
+}
+
+nav ul li
+{
+    display: block;
+    float: left;
+    margin-right: 1px;
+    padding: 7px 0px;
+    width: 150px;
+}
+
+nav ul li a
+{
+    background-color: $tabBgColor;
+    border-right: $tabBorder;
+    border-left: $tabBorder;
+    color: $tabColor;
+    display: block;
+    padding: 7px 0px;
+    text-align: center;
+    width: 150px;
+    height: 23px;
+}
+
+nav ul li a:hover
+{
+    background-color: $tabBgColorHover;
+}
+
+/* ------ Submenu ------ */
+nav ul li ul
+{
+    display: none;
+}
+
+nav ul li ul li
+{
+    float: none;
+    padding: 0px;
+}
+
+nav ul li ul li a
+{
+    background-color: $tabBgColor;
+    border-bottom: $subTabBorder;
+    border-top: $subTabBorder;
+    display: block;
+    font-size: 0.9em;
+    height: 20px;
+    margin-top: -1px;
+    padding-left: 10px;
+    text-align: left;
+    width: 140px;
+}
+
+nav ul li:hover ul
+{
+    display: block;
+    overflow: visible;
+    position: absolute;
+}
+
+/* ------ Footer ------- */
+footer
+{
+    clear: both;
+    margin-top: 7px;
+    margin-bottom: 50px
+}
+
+footer ul
+{
+    list-style: none;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+footer ul li
+{
+    display: inline;
+}
+
+footer ul li a
+{
+    background-color: $tabBgColor;
+    border-left: $tabBorder;
+    border-right: $tabBorder;
+    color: $tabColor;
+    float: left;
+    margin-right: -1px;
+    padding: 7px 30px;
+}
+
+footer ul li a:hover
+{
+    background-color: $tabBgColorHover;
+}
+
+/* --------------------------------------------------------------------------------------*/
+header, footer
+{
+  border-top: $headerBorder;
+  border-bottom: $headerBorder;
+  font-family: $serifFont;
+  font-size: 1.3em;
+  margin-top: 1em;
+  padding: 15px 0px;
+  padding-left: 50px;
+}
+
+.derek
+{
+  color: $derekColor;
+}
+
+.hamilton
+{
+  color: $hamiltonColor;
+}
+
+.main:after, .container:after
+{
+  content: "";
+  display: block;
+  height: 0px;
+  clear: both;
+}
+
+.container, .title
+{
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.resumeSidebar
+{
+  float: left;
+  width: 150px;
+  font-weight: bold;
+}
+
+.resumeMain
+{
+  margin-left: 150px;
+  font-family: Calibri,Trebuchet MS,"DejaVu Sans",sans-serif;
+  margin-bottom: 3em;
+}
