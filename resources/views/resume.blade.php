@@ -147,7 +147,7 @@
 <div class="resumeMain">
     <ul class="qual">
         <li><a href="http://dhamilton.codes">http://dhamilton.codes</a></li>
-        <li><a href="http://github.com/derekhamilton">http://github.com/derekhamilton</a></li>
+        <li><a href="https://github.com/derekhamilton">https://github.com/derekhamilton</a></li>
     </ul>
 </div>
 @endsection
