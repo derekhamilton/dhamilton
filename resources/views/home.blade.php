@@ -6,7 +6,7 @@
 <h2>Welcome &mdash; my name is Derek Hamilton, and I am a web developer.</h2>
 
 <p>
-    I've worked professionally as a full-stack developer for the past 8 years, and as a hobbiest for just as long before that. That means I've both written JavaScript before jQuery and with React, and PHP before proper OOP support and after 7.2 with full unit testing and partial strict typing support.
+    I've worked professionally as a full-stack developer for the past {!! date('Y') - 2010 !!} years, and as a hobbiest for just as long before that. That means I've both written JavaScript before jQuery and with React, and PHP before proper OOP support and after 7.2 with full unit testing and partial strict typing support.
 </p>
 <p>
     This site is available on <a href="#">github</a>, so feel free to give it a look over. Some highlights are that it,
