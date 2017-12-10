@@ -2,222 +2,159 @@
 @import "variables";
 
 /* ------ Structure ------*/
-/*
-@font-face
-{
-  font-family: 'openvera';
-  src: url('http://thevgpress.com/fonts/DejaVuSans.ttf') format('truetype');
-}
-*/
-html
-{
-}
-
-html, body
-{
+html, body {
     height: 100%;
     margin: 0px;
     padding: 0px;
 }
 
-h1
-{
+h1 {
     font-weight: normal;
 }
 
-h1, h2
-{
+h1, h2 {
     clear: both;
     margin:0px;
 }
 
-a
-{
+a {
     color: $linkColor;
     text-decoration: none;
 }
 
-#content
-{
+#content {
     min-height: 60%;
 }
 
-main
-{
+main {
     clear: both;
     min-height: 300px;
 }
 
-main, nav
-{
-    margin-left: 50px;
-    margin-right: 50px;
+main, nav {
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
-main
-{
+@media #{$mediaSm} {
+    main, nav {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+}
+
+main {
     overflow: hidden;
     font-family: $sansSerifFont;
 }
 
-main p
-{
+main p {
     margin-top: 3em;
 }
 
 /* ------ Tabs ------ */
-nav ul
-{
+nav ul {
     list-style: none;
     margin: 0px;
     overflow: hidden;
     padding: 0px;
     z-index: 99;
+
+    li {
+        display: block;
+        float: left;
+        margin-right: 1px;
+        padding: 7px 0px;
+        width: 100px;
+
+        a {
+            background-color: $tabBgColor;
+            border-right: $tabBorder;
+            border-left: $tabBorder;
+            color: $tabColor;
+            display: block;
+            height: 23px;
+            padding: 7px 0px;
+            text-align: center;
+            width: 100px;
+        }
+    }
 }
 
-nav ul li
-{
-    display: block;
-    float: left;
-    margin-right: 1px;
-    padding: 7px 0px;
-    width: 150px;
+@media #{$mediaSm} {
+    nav ul li, nav ul li a {
+        width: 150px;
+    }
 }
 
-nav ul li a
-{
-    background-color: $tabBgColor;
-    border-right: $tabBorder;
-    border-left: $tabBorder;
-    color: $tabColor;
-    display: block;
-    padding: 7px 0px;
-    text-align: center;
-    width: 150px;
-    height: 23px;
-}
-
-nav ul li a:hover
-{
+nav ul li a:hover {
     background-color: $tabBgColorHover;
 }
 
-/* ------ Submenu ------ */
-nav ul li ul
-{
-    display: none;
-}
-
-nav ul li ul li
-{
-    float: none;
-    padding: 0px;
-}
-
-nav ul li ul li a
-{
-    background-color: $tabBgColor;
-    border-bottom: $subTabBorder;
-    border-top: $subTabBorder;
-    display: block;
-    font-size: 0.9em;
-    height: 20px;
-    margin-top: -1px;
-    padding-left: 10px;
-    text-align: left;
-    width: 140px;
-}
-
-nav ul li:hover ul
-{
-    display: block;
-    overflow: visible;
-    position: absolute;
-}
-
 /* ------ Footer ------- */
-footer
-{
+footer {
     clear: both;
     margin-top: 7px;
     margin-bottom: 50px
 }
 
-footer ul
-{
+footer ul {
     list-style: none;
     margin: 0px;
     overflow: hidden;
     padding: 0px;
+
+    li {
+        display: inline;
+
+        a {
+            background-color: $tabBgColor;
+            border-left: $tabBorder;
+            border-right: $tabBorder;
+            color: $tabColor;
+            float: left;
+            margin-right: -1px;
+            padding: 7px 30px;
+        }
+
+        a:hover {
+            background-color: $tabBgColorHover;
+        }
+    }
 }
 
-footer ul li
-{
-    display: inline;
+header, footer {
+    border-top: $headerBorder;
+    border-bottom: $headerBorder;
+    font-family: $serifFont;
+    font-size: 1.3em;
+    margin-top: 1em;
+    padding: 15px 0px;
+    padding-left: 10px;
 }
 
-footer ul li a
-{
-    background-color: $tabBgColor;
-    border-left: $tabBorder;
-    border-right: $tabBorder;
-    color: $tabColor;
-    float: left;
-    margin-right: -1px;
-    padding: 7px 30px;
+@media #{$mediaSm} {
+    header, footer {
+        padding-left: 50px;
+    }
 }
 
-footer ul li a:hover
-{
-    background-color: $tabBgColorHover;
+.derek {
+    color: $derekColor;
 }
 
-/* --------------------------------------------------------------------------------------*/
-header, footer
-{
-  border-top: $headerBorder;
-  border-bottom: $headerBorder;
-  font-family: $serifFont;
-  font-size: 1.3em;
-  margin-top: 1em;
-  padding: 15px 0px;
-  padding-left: 50px;
+.hamilton {
+    color: $hamiltonColor;
 }
 
-.derek
-{
-  color: $derekColor;
+.main:after, .container:after {
+    clear: both;
+    content: "";
+    display: block;
+    height: 0px;
 }
 
-.hamilton
-{
-  color: $hamiltonColor;
-}
-
-.main:after, .container:after
-{
-  content: "";
-  display: block;
-  height: 0px;
-  clear: both;
-}
-
-.container, .title
-{
-  margin-right: 5%;
-  margin-left: 5%;
-}
-
-.resumeSidebar
-{
-  float: left;
-  width: 150px;
-  font-weight: bold;
-}
-
-.resumeMain
-{
-  margin-left: 150px;
-  font-family: Calibri,Trebuchet MS,"DejaVu Sans",sans-serif;
-  margin-bottom: 3em;
+.container, .title {
+    margin-left: 5%;
+    margin-right: 5%;
 }

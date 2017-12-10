@@ -1,2 +1,2 @@
-.school,.work{font-size:1.2em;font-style:italic}.date{color:gray}.qual{padding-left:0px;list-style-type:square}main div.resumeMain p{margin-top:0px}
+.school,.work{font-size:1.2em;font-style:italic}.date{color:gray}.qual{list-style-type:square;padding-left:0px}main div.resumeMain p{margin-top:0px}.resumeSidebar{font-weight:bold}@media only screen and (min-width: 480px){.resumeSidebar{float:left;width:150px}.resumeSidebar h3{margin-top:0px}.resumeMain{margin-bottom:3em;margin-left:150px}}
 /*# sourceMappingURL=resume.css.map */
