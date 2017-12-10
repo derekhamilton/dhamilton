@@ -1,9 +1,12 @@
 <!doctype html>
 <html lang="en-US" dir="ltr">
 <head>
-    @yield ('meta')
-
     <title>@yield ('title') - Derek Hamilton</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <meta name="Keywords" content="derek hamilton, web developer, php, mysql, c#, .net, jsp, mssql, css, javascript, jquery"></meta>
+    <meta name="Description" content="A web developer through and through"></meta>
+    @yield ('meta')
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
