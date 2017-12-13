@@ -3,10 +3,10 @@
 <head>
     <title>@yield ('title') - Derek Hamilton</title>
 
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
-    <meta name="Keywords" content="derek hamilton, web developer, php, mysql, c#, .net, jsp, mssql, css, javascript, jquery"></meta>
-    <meta name="Description" content="A web developer through and through"></meta>
-    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1"></meta>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Keywords" content="derek hamilton, web developer, php, mysql, css, javascript, jquery, react, redis, html">
+    <meta name="Description" content="A web developer through and through">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
     @yield ('meta')
 
     <link rel="icon" href="/favicon.ico" type="image/x-icon" />
@@ -25,6 +25,7 @@
         <ul>
             <li><a href="{!! route('home') !!}">Home</a></li>
             <li><a href="{!! route('resume') !!}">Resume</a></li>
+            <li><a href="https://github.com/derekhamilton/dhamilton">Github</a></li>
         </ul>
     </nav>
     <main>

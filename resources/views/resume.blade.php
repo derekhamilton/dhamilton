@@ -8,7 +8,7 @@
 
 @section ('content')
 <div>
-    <p>I am a full-stack developer in all senses. Back-end development with academic OOP principles in PHP, along with front-end experience with modern tools like ReactJS and SASS. I've worked daily with relational databases like MySQL, and modern persistence technologies in Redis. I am also an avid Linux user and am comfortable with Debian server adminstration, with an affinity for vim. And lastly, I highly value forethought, planning and consideration of speficifications and scope prior to building in order to provide the best results for everyone.</a>
+    <p>I am a full-stack developer in all senses. Back-end development with academic OOP principles in PHP, along with front-end experience with modern tools like ReactJS and SASS. I've worked daily with relational databases like MySQL, and modern persistence technologies in Redis. I am also an avid Linux user and am comfortable with Debian server adminstration, with an affinity for vim. And lastly, I highly value forethought, planning and consideration of speficifications and scope prior to building in order to provide the best results for everyone.</p>
 </div>
 <div class="resumeSidebar"><h3>Employment</h3></div>
 <div class="resumeMain">

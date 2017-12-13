@@ -9,16 +9,7 @@
     I've worked professionally as a full-stack developer for the past {!! date('Y') - 2010 !!} years, and as a hobbiest for just as long before that. That means I've both written JavaScript before jQuery and with React, and PHP before proper OOP support and after 7.2 with full unit testing and partial strict typing support.
 </p>
 <p>
-    This site is available on <a href="#">github</a>, so feel free to give it a look over. Some highlights are that it,
-</p>
-<ul>
-    <li>Is built on Laravel 5.5</li>
-    <li>Has comprehensive unit tests</li>
-    <li>Actually passes HTML validation</li>
-</ul>
-
-<p>
-    However delightful this little site may be, my usefulness extends beyond the fundamentals. You'll find my toolset also includes,
+    This site is available on <a href="https://github.com/derekhamilton/dhamilton">github</a>, so feel free to give it a look over. However delightful this little site may be, my usefulness extends beyond the fundamentals. You'll find my toolset also includes,
 </p>
 <ul>
     <li>Database design from working daily with databases my entire professional career.</li>
