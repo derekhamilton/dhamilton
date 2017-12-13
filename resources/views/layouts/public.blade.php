@@ -25,7 +25,7 @@
         <ul>
             <li><a href="{!! route('home') !!}">Home</a></li>
             <li><a href="{!! route('resume') !!}">Resume</a></li>
-            <li><a href="https://github.com/derekhamilton/dhamilton">Github</a></li>
+            <li><a href="https://github.com/derekhamilton">Github</a></li>
         </ul>
     </nav>
     <main>
