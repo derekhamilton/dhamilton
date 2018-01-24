@@ -35,7 +35,7 @@
 
     <!-- NETMEDIA SERVICES -->
     <p>
-        <span class="work">Netmedia Services Inc.</span>, <span class="date">Sep 2013 - Present</span><br />
+        <span class="work">Netmedia Services Inc.</span>, <span class="date">Sep 2013 - Oct 2016</span><br />
         <span class="position">Position: Web Developer</span><br />
         <span class="responsibilities">Responsibilities:</span>
     </p>
